@@ -1,0 +1,89 @@
+baseURL = 'https://ctcanada.github.io/'
+languageCode = 'en-us'
+title = 'CTC'
+theme = 'hugo-profile'
+
+[params]
+title = "Cyril Tax Canada"
+staticPath = ""
+favicon = "CTC.png"
+
+animate = true
+
+[params.theme]
+disableThemeToggle = true
+defaultTheme = "dark"
+
+[params.color]
+#textColor = "#FFFFFF"
+#secondaryTextColor = "#FFFFFF"
+#backgroundColor = "#FFFFFF"
+#secondaryBackgroundColor = "#FFFFFF"
+#primaryColor = "#FFFFFF"
+#secondaryColor = "#FFFFFF"
+
+[params.color.darkmode]
+#textColor = "#FFFFFF"
+#secondaryTextColor = "#FFFFFF"
+#backgroundColor = "#FFFFFF"
+#secondaryBackgroundColor = "#FFFFFF"
+#primaryColor = "#FFFFFF"
+#secondaryColor = "#FFFFFF"
+
+[params.navbar]
+align = "ms-auto"
+brandLogo = "CTC.png"
+showBrandLogo = true
+brandName = "CTC"
+
+[params.hero]
+enable = true
+intro = "Welcome to"
+title = "Cyril Tax Canada"
+subTitle = "Taxes made easy"
+content = "Simplyfing your tax filing"
+image = "CTC.png"
+
+[params.hero.socialLinks]
+[[params.hero.socialLinks.customIcons]]
+icon = "instagram.png"
+url = "https://gohugo.io/"
+[[params.hero.socialLinks.customIcons]]
+icon = "facebook.png"
+url = "https://gohugo.io/"
+
+[params.about]
+enable = true
+title = "About Us"
+image = "kyroAyoub.png"
+content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+[params.about.skills]
+enable = true
+title = "What we offer"
+items = [
+    "Personal Income Tax"
+]
+
+[params.contact]
+enable = true
+content = "Reach out by email, we are always available"
+email = "info.ctcanada@gmail.com"
+btnName = "info.ctcanada@gmail.com"
+
+[params.footer]
+[params.footer.recentPosts]
+enable = true
+path = "blogs"
+count = 3
+title = "Recent Posts"
+[params.footer.socialNetwork]
+linkedin = "https://linkedin.com"
+twitter = "https://twitter.com"
+instagram = "https://instagram.com"
+facebook = "https://facebook.com"
+
+[params.terms]
+read = "Read"
+toc = "Table Of Contents"
+copyright = "All Rights Reserved"

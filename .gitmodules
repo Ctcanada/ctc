@@ -1,0 +1,4 @@
+[submodule "ctc/public"]
+	path = ctc/public
+	url = https://github.com/Ctcanada/ctcanada.github.io.git
+	branch = main
