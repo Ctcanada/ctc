@@ -10,6 +10,13 @@ favicon = "CTC.png"
 
 animate = true
 
+customScripts = """
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/ctcanada/consultation" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+"""
+
 [params.theme]
 disableThemeToggle = true
 defaultTheme = "dark"
@@ -40,27 +47,27 @@ brandName = "CTC"
 enable = true
 intro = "Welcome to"
 title = "Cyril Tax Canada"
-subTitle = "Taxes made easy"
-content = "Simplyfing your tax filing"
-image = "CTC.png"
+subTitle = "Kyrillos Ayoub"
+content = ""
+#image = "CTC.png"
 
 [params.hero.socialLinks]
 [[params.hero.socialLinks.customIcons]]
 icon = "instagram.png"
-url = "https://gohugo.io/"
+url = "https://instagram.com/cyriltaxcanada?igshid=cWl1Ymtjb3RkcXR6&utm_source=qr"
 [[params.hero.socialLinks.customIcons]]
 icon = "facebook.png"
-url = "https://gohugo.io/"
+url = "https://calendly.com/ctcanada"
 
 [params.about]
 enable = true
 title = "About Us"
 image = "kyroAyoub.png"
-content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+#content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 [params.about.skills]
 enable = true
-title = "What we offer"
+title = "See the services we offer below"
 items = [
     "Personal Income Tax"
 ]
