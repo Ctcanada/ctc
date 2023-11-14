@@ -11,10 +11,11 @@ favicon = "CTC.png"
 animate = true
 
 customScripts = """
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/ctcanada/consultation" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
+<!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/ctcanada/consultation?background_color=202020&text_color=ffffff&primary_color=ffbd3e', text: 'Book an appointment', color: '#ffbd3e', textColor: '#202020', branding: false }); }</script>
+<!-- Calendly badge widget end -->
 """
 
 [params.theme]
@@ -47,36 +48,41 @@ brandName = "CTC"
 enable = true
 intro = "Welcome to"
 title = "Cyril Tax Canada"
-subTitle = "Kyrillos Ayoub"
-content = ""
-#image = "CTC.png"
+subtitle = "Tax Deadline"
+
+customScripts = """
+<script src="https://cdn.logwork.com/widget/countdown.js"></script>
+<a href="https://logwork.com/countdown-8fpr" class="countdown-timer" data-style="circles" data-timezone="America/Toronto" data-background="#a81414" data-textcolor="#ffffff" data-date="2023-11-15 23:14" data-digitscolor="#ffbd3e" data-unitscolor="#ffffff">‎</a>
+"""
 
 [params.hero.socialLinks]
 [[params.hero.socialLinks.customIcons]]
 icon = "instagram.png"
 url = "https://instagram.com/cyriltaxcanada?igshid=cWl1Ymtjb3RkcXR6&utm_source=qr"
-[[params.hero.socialLinks.customIcons]]
-icon = "facebook.png"
-url = "https://calendly.com/ctcanada"
 
 [params.about]
 enable = true
-title = "About Us"
-image = "kyroAyoub.png"
-#content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+title = "Pricing"
 
 [params.about.skills]
 enable = true
-title = "See the services we offer below"
+title = "We offer personal tax filing for everyone, see our pricing guidelines below"
 items = [
-    "Personal Income Tax"
+    "First Tax Filing",
+    "Students",
+    "Seniors (65+)",
+    "Other Personal Filing"
 ]
 
 [params.contact]
 enable = true
+title = "Contact Us"
 content = "Reach out by email, we are always available"
 email = "info.ctcanada@gmail.com"
 btnName = "info.ctcanada@gmail.com"
+
+[params.contact.formspree]
+enable = true
 
 [params.footer]
 [params.footer.recentPosts]
