@@ -3,6 +3,15 @@ languageCode = 'en-us'
 title = 'CTC'
 theme = 'hugo-profile'
 
+[Menus]
+[[Menus.main]]
+identifier = "faq"
+name = "FAQ"
+title = "FAQ"
+url = "/blogs"
+
+[[Menus.main]]
+
 [params]
 title = "Cyril Tax Canada"
 staticPath = ""
@@ -55,31 +64,40 @@ customScripts = """
 <a href="https://logwork.com/countdown-8fpr" class="countdown-timer" data-style="circles" data-timezone="America/Toronto" data-background="#a81414" data-textcolor="#ffffff" data-date="2023-11-15 23:14" data-digitscolor="#ffbd3e" data-unitscolor="#ffffff">‎</a>
 """
 
+[params.hero.bottomImage]
+enable = false
+
 [params.hero.socialLinks]
 [[params.hero.socialLinks.customIcons]]
 icon = "instagram.png"
 url = "https://instagram.com/cyriltaxcanada?igshid=cWl1Ymtjb3RkcXR6&utm_source=qr"
 
-[params.about]
+[params.achievements]
 enable = true
-title = "Pricing"
+title = "Services & Pricing"
 
-[params.about.skills]
-enable = true
-title = "We offer personal tax filing for everyone, see our pricing guidelines below"
-items = [
-    "First Tax Filing",
-    "Students",
-    "Seniors (65+)",
-    "Other Personal Filing"
-]
+[[params.achievements.items]]
+title = "First Tax Filing"
+content = "For anyone filing tax for the first time within Canada (Starting $40)"
+
+[[params.achievements.items]]
+title = "Students"
+content = "For students currently attending college or university (Starting $30)"
+
+[[params.achievements.items]]
+title = "Seniors"
+content = "Anyone aged 65+ (Starting $30)"
+
+[[params.achievements.items]]
+title = "Other Personal Filing"
+content = "Any other type of filing (Starting $60)"
 
 [params.contact]
 enable = true
 title = "Contact Us"
-content = "Reach out by email, we are always available"
+content = """Reach out by email on info.ctcanada@gmail.com or by fill the form below, we are always available"""
 email = "info.ctcanada@gmail.com"
-btnName = "info.ctcanada@gmail.com"
+btnName = "Submit"
 
 [params.contact.formspree]
 enable = true
@@ -91,10 +109,7 @@ path = "blogs"
 count = 3
 title = "Recent Posts"
 [params.footer.socialNetwork]
-linkedin = "https://linkedin.com"
-twitter = "https://twitter.com"
-instagram = "https://instagram.com"
-facebook = "https://facebook.com"
+instagram = "https://instagram.com/cyriltaxcanada?igshid=cWl1Ymtjb3RkcXR6&utm_source=qr"
 
 [params.terms]
 read = "Read"
