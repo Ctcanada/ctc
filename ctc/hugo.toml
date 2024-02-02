@@ -102,6 +102,7 @@ btnName = "Submit"
 
 [params.contact.formspree]
 enable = true
+formId = "xyyrekql"
 
 [params.footer]
 [params.footer.recentPosts]
