@@ -61,7 +61,7 @@ subtitle = "Tax Deadline"
 
 customScripts = """
 <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-8fpr" class="countdown-timer" data-style="circles" data-timezone="America/Toronto" data-background="#a81414" data-textcolor="#ffffff" data-date="2023-11-15 23:14" data-digitscolor="#ffbd3e" data-unitscolor="#ffffff">‎</a>
+<a href="https://logwork.com/countdown-4fji" class="countdown-timer" data-style="circles" data-timezone="America/Toronto" data-date="2024-04-30 11:33">Tax Deadline</a>
 """
 
 [params.hero.bottomImage]
@@ -69,6 +69,7 @@ enable = false
 
 [params.hero.socialLinks]
 [[params.hero.socialLinks.customIcons]]
+
 icon = "instagram.png"
 url = "https://instagram.com/cyriltaxcanada?igshid=cWl1Ymtjb3RkcXR6&utm_source=qr"
 
@@ -82,11 +83,11 @@ content = "For anyone filing tax for the first time within Canada (Starting $40)
 
 [[params.achievements.items]]
 title = "Students"
-content = "For students currently attending college or university (Starting $30)"
+content = "For students currently attending college or university (Starting $35)"
 
 [[params.achievements.items]]
 title = "Seniors"
-content = "Anyone aged 65+ (Starting $30)"
+content = "Anyone aged 65+ (Starting $35)"
 
 [[params.achievements.items]]
 title = "Other Personal Filing"
