@@ -79,19 +79,28 @@ title = "Services & Pricing"
 
 [[params.achievements.items]]
 title = "First Tax Filing"
-content = "For anyone filing tax for the first time within Canada (Starting $40)"
+content = "For anyone filing tax for the first time within Canada"
 
 [[params.achievements.items]]
 title = "Students"
-content = "For students currently attending college or university (Starting $35)"
+content = "For students currently attending college or university"
 
 [[params.achievements.items]]
 title = "Seniors"
-content = "Anyone aged 65+ (Starting $35)"
+content = "Anyone aged 65+"
 
 [[params.achievements.items]]
-title = "Other Personal Filing"
-content = "Any other type of filing (Starting $60)"
+title = "Other Personal Filings"
+content = "Any other type of filing"
+
+
+[[params.achievements.items]]
+title = "Bookkeeping Services"
+content = "Bookkeeping Services for your business or practice"
+
+[[params.achievements.items]]
+title = "Corporate Tax services"
+content = "All types of corporate tax filings throughout the year for your business or practice"
 
 [params.contact]
 enable = true
