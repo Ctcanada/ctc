@@ -89,10 +89,6 @@ content = "For students currently attending college or university"
 title = "Seniors"
 content = "Anyone aged 65+"
 
-[[params.achievements.items]]
-title = "Other Personal Filings"
-content = "Any other type of filing"
-
 
 [[params.achievements.items]]
 title = "Bookkeeping Services"
@@ -101,6 +97,10 @@ content = "Bookkeeping Services for your business or practice"
 [[params.achievements.items]]
 title = "Corporate Tax services"
 content = "All types of corporate tax filings throughout the year for your business or practice"
+
+[[params.achievements.items]]
+title = "Other Services"
+content = "Any other type of filing, personal or business accounting need"
 
 [params.contact]
 enable = true
