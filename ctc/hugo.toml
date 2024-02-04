@@ -70,8 +70,7 @@ enable = false
 [params.hero.socialLinks]
 [[params.hero.socialLinks.customIcons]]
 
-icon = "instagram.png"
-url = "https://instagram.com/cyriltaxcanada"
+
 
 [params.achievements]
 enable = true
@@ -105,9 +104,12 @@ content = "Any other type of filing, personal or business accounting need"
 [params.contact]
 enable = true
 title = "Contact Us"
-content = """Reach out by email at info.ctcanada@gmail.com or by filling the form below, we are always available"""
+content = """Reach out by email at info.ctcanada@gmail.com or by filling the form below, we are always available!"""
 email = "info.ctcanada@gmail.com"
 btnName = "Submit"
+
+icon = "instagram.png"
+url = "https://instagram.com/cyriltaxcanada"
 
 [params.contact.formspree]
 enable = true
