@@ -75,7 +75,7 @@ url = "https://instagram.com/cyriltaxcanada"
 
 [params.achievements]
 enable = true
-title = "Services & Pricing"
+title = "Services"
 
 [[params.achievements.items]]
 title = "First Tax Filing"
