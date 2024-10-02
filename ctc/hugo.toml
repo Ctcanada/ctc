@@ -4,13 +4,13 @@ title = 'CTC'
 theme = 'hugo-profile'
 
 [Menus]
-[[Menus.main]]
-identifier = "faq"
-name = "FAQ"
-title = "FAQ"
-url = "/blogs"
+#[[Menus.main]]
+#identifier = "faq"
+#name = "FAQ"
+#title = "FAQ"
+#url = "/blogs"
 
-[[Menus.main]]
+#[[Menus.main]]
 
 [params]
 title = "Cyril Tax Canada"
@@ -66,9 +66,17 @@ customScripts = """
 [params.hero.bottomImage]
 enable = false
 
-[params.hero.socialLinks]
-[[params.hero.socialLinks.customIcons]]
+[params.hero.button]
+enable = false
+name = "instagram"
+url = "#"
+download = false
+newPage = true
 
+[params.hero.socialLinks]
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-instagram"
+url = "https://www.instagram.com/cyriltaxcanada/"
 
 
 [params.achievements]
