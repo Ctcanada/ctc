@@ -66,18 +66,6 @@ customScripts = """
 [params.hero.bottomImage]
 enable = false
 
-[params.hero.button]
-enable = false
-name = "instagram"
-url = "#"
-download = false
-newPage = true
-
-[params.hero.socialLinks]
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-instagram"
-url = "https://www.instagram.com/cyriltaxcanada/"
-
 
 [params.achievements]
 enable = true
