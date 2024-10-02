@@ -60,7 +60,7 @@ title = "Cyril Tax Canada"
 subtitle = "Maximize returns and minimize stress"
 
 customScripts = """
-<script src="https://cdn.logwork.com/widget/countdown.js"></script>
+<p>&nbsp;</p><script src="https://cdn.logwork.com/widget/countdown.js"></script>
 <a href="https://logwork.com/countdown-timer" class="countdown-timer" data-style="circles" data-timezone="America/Toronto" data-textcolor="#ffffff" data-date="2025-05-01 00:00" data-background="#ffbd3e" data-digitscolor="#ffffff" data-unitscolor="#ffffff">2025 Tax Deadline</a>
 """
 
@@ -78,28 +78,43 @@ title = "Services"
 
 [[params.achievements.items]]
 title = "First Tax Filing"
-content = "For anyone filing tax for the first time within Canada"
+content = "Filing your first taxes? Do not worry! We will help you do it seamlessly."
 
 [[params.achievements.items]]
-title = "Students"
-content = "For students currently attending college or university"
+title = "Students' Tax filing"
+content = "For students currently attending college or university. Special discounts for Medical students in Canada and abroad!"
 
 [[params.achievements.items]]
-title = "Seniors"
+title = "Seniors' Tax filing"
 content = "Anyone aged 65+"
 
+[[params.achievements.items]]
+title = "Tax Planning"
+content = "To maximize your returns, we will help you plan ahead to navigate the different contribution programs."
+
+[[params.achievements.items]]
+title = "Debt planning"
+content = "Having debts can be very stressful, we will help you make the right decisions to navigate debt consolidation."
 
 [[params.achievements.items]]
 title = "Bookkeeping Services"
-content = "Bookkeeping Services for your business or practice"
+content = "Bookkeeping services for your business or practice."
 
 [[params.achievements.items]]
-title = "Corporate Tax services"
-content = "All types of corporate tax filings throughout the year for your business or practice"
+title = "Corporate Tax Preparation"
+content = "All types of corporate tax preparation, processing and filing throughout the year for your business or practice."
+
+[[params.achievements.items]]
+title = "HST Returns"
+content = "We will help you file HST on time."
+
+[[params.achievements.items]]
+title = "Payroll Processing"
+content = "Time is of essence! We will help with payroll processing so you can focus on growing your business."
 
 [[params.achievements.items]]
 title = "Other Services"
-content = "Any other type of filing, personal or business accounting need"
+content = "If you are looking for a service that is not on the website. Do not hesitate to get in touch to find out if we can help!"
 
 [params.contact]
 enable = true
