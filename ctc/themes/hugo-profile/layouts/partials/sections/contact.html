@@ -30,11 +30,18 @@
                     </div>
                     {{ end }}
 
-                    <span class="px-2">
-                        <a href="https://www.instagram.com/cyriltaxcanada/" target="_blank" class="btn social-icon">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </span>
+                    <div class="text-center">
+                        <p>&nbsp;</p>
+                        {{ "Follow us on instagram! " }}
+                        <p>&nbsp;</p>
+                        <div class="pb-2">
+                            <a href="{{ .Site.Params.contact.url }}" title="{{ .Site.Title }}">
+                                <img alt="Footer logo" src="{{ .Site.Params.contact.icon }}"
+                                    height="40px" width="40px">
+                            </a>
+                        </div>
+
+                    </div>
 
                 </div>
             </div>
