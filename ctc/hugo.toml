@@ -100,7 +100,7 @@ title = "Tax Planning"
 content = "To maximize your returns, we will help you plan ahead to navigate the different contribution programs."
 
 [[params.achievements.items]]
-title = "Debt planning"
+title = "Debt Planning"
 content = "Having debts can be very stressful, we will help you make the right decisions to navigate debt consolidation."
 
 [[params.achievements.items]]
@@ -126,7 +126,7 @@ content = "If you are looking for a service that is not on the website. Do not h
 [params.contact]
 enable = true
 title = "Contact Us"
-content = """Reach out by email at info.ctcanada@gmail.com or by filling the form below, we are always available!"""
+content = """Reach out by email at info.ctcanada@gmail.com or by filling the form below for a free no-commitment consultation. we are always available!"""
 email = "info.ctcanada@gmail.com"
 btnName = "Submit"
 
