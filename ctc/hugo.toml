@@ -55,7 +55,6 @@ brandName = "CTC"
 
 [params.hero]
 enable = true
-#intro = "Welcome to"
 title = "Cyril Tax Canada"
 subtitle = "Maximize returns and minimize stress"
 

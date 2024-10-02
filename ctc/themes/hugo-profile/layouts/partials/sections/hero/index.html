@@ -9,19 +9,17 @@
                 <h2>
                     {{ .Site.Params.hero.title }}
                 </h2>
-                <h3>
+                <h4>
                     {{ .Site.Params.hero.subtitle }}
-                </h3>
+                </h4>
                 <p class="hero-content">
                     {{ .Site.Params.hero.content | markdownify }}
                 </p>
-
+                <p>&nbsp;&nbsp;&nbsp;</p>
                 {{ if (.Site.Params.hero.customScripts | default false) }}
                 {{ .Site.Params.hero.customScripts | safeHTML }}
                 {{ end }}
-                
-
-
+        
                 <div class="row">
                     <div class="col-auto h-100">
                         {{ if .Site.Params.hero.button.enable }}
