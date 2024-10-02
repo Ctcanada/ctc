@@ -55,13 +55,13 @@ brandName = "CTC"
 
 [params.hero]
 enable = true
-intro = "Welcome to"
+#intro = "Welcome to"
 title = "Cyril Tax Canada"
-subtitle = "Tax Deadline"
+subtitle = "Maximize returns and minimize stress"
 
 customScripts = """
 <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-4fji" class="countdown-timer" data-style="circles" data-timezone="America/Toronto" data-date="2024-04-30 11:33">Tax Deadline</a>
+<a href="https://logwork.com/countdown-timer" class="countdown-timer" data-style="circles" data-timezone="America/Toronto" data-textcolor="#ffffff" data-date="2025-05-01 00:00" data-background="#ffbd3e" data-digitscolor="#ffffff" data-unitscolor="#ffffff">2025 Tax Deadline</a>
 """
 
 [params.hero.bottomImage]
